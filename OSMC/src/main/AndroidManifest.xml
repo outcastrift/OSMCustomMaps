@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="osm.custommaps" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+
+    <application android:name=".CustomMapsApp"
+    android:icon="@drawable/icon"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme"
+    android:hardwareAccelerated="false"
+    android:allowBackup="true">
+
+        <activity android:name=".CustomMaps"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.MapView"
+            android:orientation="vertical">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <!-- QR codes - http://www.custommapsapp.com/qr?url=http://host/path/file.kmz -->
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http" android:host="www.custommapsapp.com" android:pathPrefix="/qr" />
+            </intent-filter>
+            <intent-filter>
+                <!-- Local file support (for file managers and downloaded files) -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" android:host="*" android:pathPattern=".*\\.kmz" android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <!-- Kmz file download support for Android browser and Gmail -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="application/vnd.google-earth.kmz" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutDisplay"/>
+        <activity android:name=".SelectMap"
+            android:label="@string/select_map_name" />
+        <activity android:name=".MapEditor"
+            android:label="@string/create_map_name" />
+        <activity android:name=".SelectImageFileActivity"
+            android:label="@string/create_map_name" />
+        <activity android:name=".BitmapPointActivity"
+            android:theme="@style/AppTheme.MapView"
+            android:label="@string/create_map_name" />
+        <activity android:name=".TiePointActivity"
+            android:theme="@style/AppTheme.MapView"
+            android:label="@string/create_map_name" />
+        <activity android:name=".PreviewMapActivity"
+            android:theme="@style/AppTheme.MapView"
+            android:label="@string/create_map_name" />
+        <activity android:name=".KmzDownloader"
+            android:configChanges="orientation|keyboard|keyboardHidden" />
+        <activity android:name=".storage.EditPreferences"
+            android:label="@string/edit_prefs_name" />
+
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <!--<activity
+            android:name=".GoogleMapsActivity"
+            android:label="@string/title_activity_google_maps" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+
+
+    </application>
+
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme.MapView" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.Holo"></style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#80000000</item>
+    </style>
+
+    <style name="Overflow" parent="@android:style/Widget.ActionButton.Overflow"></style>
+
+    <style name="NormalText">
+        <item name="android:textSize">8pt</item>
+    </style>
+    <style name="SmallText" parent="@style/NormalText">
+        <item name="android:textSize">6pt</item>
+    </style>
+    <style name="LargeText" parent="@style/NormalText">
+        <item name="android:textSize">10pt</item>
+    </style>
+    <style name="HugeText" parent="@style/NormalText">
+        <item name="android:textSize">12pt</item>
+    </style>
+
+</resources>
