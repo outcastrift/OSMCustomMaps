@@ -4,8 +4,45 @@
     <file url="file://$PROJECT_DIR$/OSMC/src/main/AndroidManifest.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OSMC/src/main/assets" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OSMC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/AutoCompleteOnPreferences.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/KmlListAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/KmlStyleActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/KmlStyleListAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/KmlStylesActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/KmlTreeActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/MapActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/POIActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/POIInfoWindow.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/RouteActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/ViaPointInfoWindow.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/OSMC/src/main/res" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable/btn_delete.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable/expander_bgrnd.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/bonuspack_bubble_black.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/item_layout.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/items_list.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/itinerary_bubble.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/kml_item_menu.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/kml_list_item.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/kml_main.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/kml_option_menu.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/kml_style.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/kml_styles.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/map_menu.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/option_menu.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/style_item_menu.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/style_option_menu.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/values/direction_icons.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/values/osm_poi_tags.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/values/poi_tags.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/osmbonuspack-5.3" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator/src/main/res/layout/kml_item_menu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator/src/main/res/layout/kml_option_menu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator/src/main/res/layout/map_menu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator/src/main/res/layout/option_menu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator/src/main/res/layout/style_item_menu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator/src/main/res/layout/style_option_menu.xml" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

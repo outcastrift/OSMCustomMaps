@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/osmbonuspack-5.3/MapsForgeForOsmdroid/MapsForgeForOsmdroid.iml" filepath="$PROJECT_DIR$/osmbonuspack-5.3/MapsForgeForOsmdroid/MapsForgeForOsmdroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMBonusPack/OSMBonusPack.iml" filepath="$PROJECT_DIR$/osmbonuspack-5.3/OSMBonusPack/OSMBonusPack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMBonusPackTuto/OSMBonusPackTuto.iml" filepath="$PROJECT_DIR$/osmbonuspack-5.3/OSMBonusPackTuto/OSMBonusPackTuto.iml" />
       <module fileurl="file://$PROJECT_DIR$/OSMC/OSMC.iml" filepath="$PROJECT_DIR$/OSMC/OSMC.iml" />
       <module fileurl="file://$PROJECT_DIR$/OSMCustomMapsMAIN.iml" filepath="$PROJECT_DIR$/OSMCustomMapsMAIN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator/OSMNavigator.iml" filepath="$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator/OSMNavigator.iml" />
     </modules>
   </component>
 </project>

@@ -59,7 +59,7 @@ import android.widget.Toast;
 /**
  * This is the implementation of OSMBonusPack tutorials. 
  * Sections of code can be commented/uncommented depending on the progress in the tutorials. 
- * @see https://github.com/MKergall/osmbonuspack
+ * @see //https://github.com/MKergall/osmbonuspack
  * @author M.Kergall
  *
  */
@@ -91,9 +91,9 @@ public class MainActivity extends Activity implements MapEventsReceiver {
 		startMarker.setPosition(startPoint);
 		startMarker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM);
 		startMarker.setTitle("Start point");
-		//startMarker.setIcon(getResources().getDrawable(R.drawable.marker_kml_point).mutate());
-		//startMarker.setImage(getResources().getDrawable(R.drawable.ic_launcher));
-		//startMarker.setInfoWindow(new MarkerInfoWindow(R.layout.bonuspack_bubble_black, map));
+		startMarker.setIcon(getResources().getDrawable(R.drawable.marker_kml_point).mutate());
+		startMarker.setImage(getResources().getDrawable(R.drawable.ic_launcher));
+		startMarker.setInfoWindow(new MarkerInfoWindow(R.layout.bonuspack_bubble_black, map));
 		startMarker.setDraggable(true);
 		startMarker.setOnMarkerDragListener(new OnMarkerDragListenerDrawer());
 		map.getOverlays().add(startMarker);
