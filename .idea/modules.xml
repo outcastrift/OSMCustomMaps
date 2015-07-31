@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OSMC/OSMC.iml" filepath="$PROJECT_DIR$/OSMC/OSMC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OSMCustomMaps.iml" filepath="$PROJECT_DIR$/OSMCustomMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OSMCustomMapsMAIN.iml" filepath="$PROJECT_DIR$/OSMCustomMapsMAIN.iml" />
     </modules>
   </component>
 </project>

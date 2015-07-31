@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OpenCustomMaps</string>
+    <string name="app_name">OSM-CustomMaps</string>
     <string name="select_map_name">Select map</string>
     <string name="create_map_name">Create map</string>
     <string name="edit_prefs_name">Preferences</string>
     <string name="author">By Sam Davis</string>
     <string name="open_source">
-        OpenCustomMaps app and its source code are published under Apache License, version 2.0.
+        OSM-CustomMaps app and its source code are published under Apache License, version 2.0.
     </string>
     <string name="apache_license">Read Apache License 2.0</string>
     <string name="google_code">Visit open source project website</string>
@@ -35,7 +35,7 @@
     <!-- safety warning -->
     <string name="safety_warning_title">IMPORTANT!</string>
     <string name="safety_warning">
-        Many map images that can be used with Custom Maps are not drawn accurately enough to show
+        Many map images that can be used with OSM Custom Maps are not drawn accurately enough to show
         exact GPS locations. Displayed location should be considered approximate at all times.
         \n\nEven within a single map some areas may be better aligned with GPS than others.
     </string>
@@ -124,7 +124,7 @@
 
     <!-- map geo point selection -->
     <string name="geo_point_help">
-        Zoom and pan Google map to match the center of the thumbnail.\n\nUse the sliders to rotate
+        Zoom and pan the map to match the center of the thumbnail.\n\nUse the sliders to rotate
         and scale the thumbnail, and to adjust its transparency.\n\nMap button toggles map view
         and satellite view.
     </string>
@@ -187,15 +187,15 @@
     <!-- about dialog -->
     <string name="version_label">version</string>
     <string name="credits_text">
-        <b>Special thanks</b>
-        \n\u2022 Harlan Hile (pinch zoom, user location icon)
-        \n\u2022 Patrick Steiner (internationalization, German translation)
-        \n\u2022 Francesco Terribile (Italian translation)
-        \n\u2022 Dorin Hongu (Romanian translation)
-        \n\u2022 Germain Zouein (testing)
-        \n\u2022 Tomasz Kossakowski (Polish translation)
-        \n\u2022 Dmitry Kandin (Russian translation)
-        \n\u2022 Vladimira Šantek (Croatian translation)
+        <b>Sources</b>
+        \n\u2022 OSMDROID The open street map alternative to Google Maps.
+        \n\u2022 Original Custom Maps App by Marko Teittinen
+        \n\u2022
+        \n\u2022
+        \n\u2022
+        \n\u2022
+        \n\u2022
+        \n\u2022
     </string>
 
     <!-- button items -->
