@@ -24,6 +24,7 @@ import android.util.FloatMath;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
+import java.lang.Math;
 
 /**
  * ImageDisplay displays a bitmap at its full resolution and allows the user to
@@ -31,7 +32,7 @@ import android.view.View;
  *
  * @author Marko Teittinen
  */
-public class ImageDisplay extends View {
+public class ImageDisplay extends View  {
   private Bitmap image;
   private int imageW;
   private int imageH;
