@@ -45,6 +45,11 @@ import osm.custommaps.HelpDialogManager;
 import osm.custommaps.ImageHelper;
 import osm.custommaps.PtSizeFixer;
 import osm.custommaps.R;
+import osm.custommaps.create.PreviewMapActivity;
+import osm.custommaps.create.SelectImageFileActivity;
+import osm.custommaps.create.TiePoint;
+import osm.custommaps.create.TiePointActivity;
+import osm.custommaps.create.TiePointAdapter;
 import osm.custommaps.kml.GroundOverlay;
 import osm.custommaps.kml.KmlFeature;
 import osm.custommaps.kml.KmlFolder;
@@ -78,7 +83,7 @@ import java.util.zip.ZipOutputStream;
  * @author Marko Teittinen
  */
 public class MapEditor extends Activity {
-  private static final String EXTRA_PREFIX = "com.custommapsapp.android";
+  private static final String EXTRA_PREFIX = "osm.custommaps";
   private static final String TIEPOINT_INDEX = EXTRA_PREFIX + ".TiepointIndex";
   public static final String BITMAP_FILE = EXTRA_PREFIX + ".BitmapFile";
   public static final String KMZ_FILE = EXTRA_PREFIX + ".KmzFile";
@@ -123,10 +128,10 @@ public class MapEditor extends Activity {
       PtSizeFixer.fixView(nameField.getRootView());
     }
 
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+   /* if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
       // Update actionbar title to match selected locale
       getActionBar().setTitle(R.string.create_map_name);
-    }
+    }*/
 
     helpDialogManager = new HelpDialogManager(this, HelpDialogManager.HELP_MAP_EDITOR,
                                               getString(R.string.editor_help));

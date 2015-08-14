@@ -27,6 +27,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/editor_description"
+        android:visibility="gone"
         />
     <EditText
         style="@style/NormalText"
@@ -36,6 +37,8 @@
         android:layout_marginBottom="4dp"
         android:inputType="textCapSentences"
         android:singleLine="true"
+        android:visibility="gone"
+
         />
     <TextView
         style="@style/SmallText"

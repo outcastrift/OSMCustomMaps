@@ -50,7 +50,7 @@ import java.util.Set;
  * @author Marko Teittinen
  */
 public class KmzDownloader extends Activity {
-  private static final String PREFIX = "com.custommapsapp.android";
+  private static final String PREFIX = "osm.custommaps";
   public static final String URL = PREFIX + ".URL";
   public static final String LOCAL_FILE = PREFIX + ".LocalFile";
 

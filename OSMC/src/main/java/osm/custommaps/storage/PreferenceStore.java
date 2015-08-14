@@ -43,7 +43,7 @@ public class PreferenceStore {
   public static final String PREFS_LICENSE_ACCEPTED = "licenseAccepted";
   public static final String PREFS_SHOW_REMINDER = "showReminder";
   public static final String PREFS_LANGUAGE = "language";
-  public static final String SHARED_PREFS_NAME = "com.custommapsapp.android.prefs";
+  public static final String SHARED_PREFS_NAME = "osm.custommaps.android.prefs";
 
   private static PreferenceStore instance; // singleton
 

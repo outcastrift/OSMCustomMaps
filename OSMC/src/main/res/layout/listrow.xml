@@ -15,7 +15,7 @@
         android:text=""
         />
 
-    <TextView android:id="@+id/descriptionField"
+    <TextView android:id="@+id/descriptionFieldlistRow"
         style="@style/SmallText"
         android:layout_below="@id/titleField"
         android:layout_alignLeft="@id/titleField"

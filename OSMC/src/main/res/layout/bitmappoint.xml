@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#000000"
     >
     <Button
         style="@style/LargeText"
@@ -14,7 +15,7 @@
         android:text="@string/select_point"
         />
     <view
-        class="osm.custommaps.ImageDisplay"
+        class="osm.custommaps.create.ImageDisplay"
         android:id="@+id/imageDisplay"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

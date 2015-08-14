@@ -44,6 +44,7 @@ import osm.custommaps.HelpDialogManager;
 import osm.custommaps.ImageHelper;
 import osm.custommaps.PtSizeFixer;
 import osm.custommaps.R;
+import osm.custommaps.create.ImageDisplay;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,7 +65,7 @@ import java.util.List;
  * @author Marko Teittinen
  */
 public class BitmapPointActivity extends Activity {
-  private static final String EXTRA_PREFIX = "com.custommapsapp.android";
+  private static final String EXTRA_PREFIX = "osm.custommaps";
   public static final String BITMAP_FILE = EXTRA_PREFIX + ".BitmapFile";
   public static final String TIEPOINTS = EXTRA_PREFIX + ".Tiepoints";
   public static final String SELECTED_POINT = EXTRA_PREFIX + ".SelectedPoint";
@@ -101,10 +102,10 @@ public class BitmapPointActivity extends Activity {
       PtSizeFixer.fixView(imageDisplay.getRootView());
     }
 
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+  /*  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
       // Update actionbar title to match selected locale
       getActionBar().setTitle(R.string.create_map_name);
-    }
+    }*/
 
     String fileName = getIntent().getStringExtra(BITMAP_FILE);
     if (fileName == null) {
@@ -210,7 +211,7 @@ public class BitmapPointActivity extends Activity {
 
     // When using holo theme, move help label down to below translucent action bar
     // This cannot be done in onCreate() or in onResume() as actionbar height is still 0
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+   /* if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
       int actionBarHeight = getActionBar().getHeight();
       // Use top margin of help label to move it from under actionbar
       View v = this.findViewById(R.id.help);
@@ -223,7 +224,7 @@ public class BitmapPointActivity extends Activity {
           v.getParent().requestLayout();
         }
       }
-    }
+    }*/
 
     return true;
   }

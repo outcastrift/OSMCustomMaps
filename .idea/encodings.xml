@@ -17,6 +17,45 @@
     <file url="file://$PROJECT_DIR$/OSMC/src/main/java/osm/custommaps/ViaPointInfoWindow.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/OSMC/src/main/res" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/bonuspack_bubble_black.9.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/btn_route.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/btn_tracking_off.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/btn_tracking_on.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/delete.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/delete_pressed.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/helloworld.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_arrived.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_continue.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_empty.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_envelope.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_menu_itinerary.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_menu_poi.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_roundabout.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_sharp_left.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_sharp_right.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_slight_left.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_slight_right.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_turn_left.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_turn_right.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/ic_u_turn.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/icon.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/kml_icon_groundoverlay.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/kml_icon_linestring.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/kml_icon_multigeometry.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/kml_icon_polygon.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_cluster.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_departure.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_destination.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_kml_point.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_node.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_poi.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_poi_cluster.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_poi_default.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_poi_flickr.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_poi_picasa_24.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_poi_wikipedia_16.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_poi_wikipedia_32.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable-mdpi/marker_via.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable/btn_delete.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/OSMC/src/main/res/drawable/expander_bgrnd.9.png" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/OSMC/src/main/res/layout/bonuspack_bubble_black.xml" charset="windows-1252" />

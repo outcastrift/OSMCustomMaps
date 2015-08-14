@@ -68,7 +68,7 @@ import org.xmlpull.v1.XmlPullParserException;
 public class CustomMaps extends Activity {
   public static final String LOG_TAG = "Custom Maps";
 
-  private static final String PREFIX = "com.custommapsapp.android";
+  private static final String PREFIX = "osm.custommaps";
   private static final String SAVED_LOCATION = PREFIX + ".Location";
   private static final String SAVED_MAP = PREFIX + ".Map";
   private static final String SAVED_MARKER = PREFIX + ".Placemark";
@@ -121,10 +121,10 @@ public class CustomMaps extends Activity {
     GeoidHeightEstimator.initialize(getAssets());
 
     // Never display Holo actionbar in landscape mode
-    if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE &&
+   /* if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE &&
         Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
       requestWindowFeature(Window.FEATURE_NO_TITLE);
-    }
+    }*/
 
     boolean ptSizeFixNeeded = PtSizeFixer.isFixNeeded(this);
     reloadUI();
@@ -276,7 +276,7 @@ public class CustomMaps extends Activity {
     distanceLayer.setShowHeading(prefs.isShowHeading());
 
     // On honeycomb and newer, display a button to open options menu
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+    /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
       ImageButton more = (ImageButton) findViewById(R.id.optionsMenuButton);
       if (more != null) {
         more.setVisibility(View.VISIBLE);
@@ -287,7 +287,7 @@ public class CustomMaps extends Activity {
           }
         });
       }
-    }
+    }*/
   }
 
   @Override
@@ -429,9 +429,9 @@ public class CustomMaps extends Activity {
         .setIcon(android.R.drawable.ic_menu_mapmode);
     MenuItem item = menu.add(Menu.NONE, MENU_MY_LOCATION, Menu.NONE, R.string.my_location)
         .setIcon(android.R.drawable.ic_menu_mylocation);
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB && forActionBar) {
+   /* if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB && forActionBar) {
       item.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-    }
+    }*/
     menu.add(Menu.NONE, MENU_LOCATION_DETAILS, Menu.NONE, R.string.location_details)
         .setIcon(android.R.drawable.ic_menu_info_details);
     menu.add(Menu.NONE, MENU_SHARE_MAP, Menu.NONE, R.string.share_map)

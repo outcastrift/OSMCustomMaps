@@ -1,10 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
     <style name="AppTheme.MapView" parent="AppTheme">
         <item name="android:actionBarStyle">@style/ActionBar</item>
         <item name="android:windowActionBarOverlay">true</item>
     </style>
-    <style name="AppTheme" parent="@android:style/Theme.Holo"></style>
 
     <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar">
         <item name="android:background">#80000000</item>
@@ -24,5 +39,14 @@
     <style name="HugeText" parent="@style/NormalText">
         <item name="android:textSize">12pt</item>
     </style>
+    <style name="AppThemeCustom">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+   <!-- <style name="PopupItemStyle">
+        <item name="android:background">#FFA0A0A0</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>-->
 
 </resources>

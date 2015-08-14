@@ -106,7 +106,7 @@ public class AnnotationLayer extends View {
    * Converts pt units to pixels on a given canvas (1 pt = 1/72 inch).
    *
    * @param pts number of pt units to convert
-   * @param canvas that is used for pixel density
+   * @param //canvas that is used for pixel density
    * @return number of pixels matching 'pts' pt units
    */
   private float ptsToPixels(float pts, Context context) {

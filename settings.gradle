@@ -1,5 +1,4 @@
 include ':OSMC', ':MapsForgeForOsmdroid', ':OSMBonusPackTuto', ':OSMNavigator', ':OSMBonusPack';
 project(':MapsForgeForOsmdroid').projectDir = new File('osmbonuspack-5.3/MapsForgeForOsmdroid')
-project(':OSMBonusPackTuto').projectDir = new File('osmbonuspack-5.3/OSMBonusPackTuto')
 project(':OSMNavigator').projectDir = new File('osmbonuspack-5.3/OSMNavigator')
 project(':OSMBonusPack').projectDir = new File('osmbonuspack-5.3/OSMBonusPack')

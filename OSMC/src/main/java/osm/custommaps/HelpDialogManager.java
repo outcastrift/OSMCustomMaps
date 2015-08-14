@@ -33,7 +33,7 @@ import osm.custommaps.storage.PreferenceStore;
  * @author Marko Teittinen
  */
 public class HelpDialogManager {
-  private static final String PREFIX = "com.custommapsapp.android";
+  private static final String PREFIX = "osm.custommaps";
   private static final String DIALOG_STATE = PREFIX + ".DialogState";
   private static final String FIRST_TIME = PREFIX + ".FirstTime";
 

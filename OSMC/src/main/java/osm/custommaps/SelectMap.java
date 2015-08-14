@@ -1,5 +1,20 @@
-
+/*
+ * Copyright 2011 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package osm.custommaps;
+
 
 
 import android.app.Activity;
@@ -27,14 +42,14 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
 import osm.custommaps.kml.GroundOverlay;
 import osm.custommaps.kml.KmlFolder;
 import osm.custommaps.storage.EditPreferences;
 import osm.custommaps.storage.PreferenceStore;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * SelectMap allows user to select a map to be displayed, or to launch
@@ -59,17 +74,16 @@ public class SelectMap extends ListActivity {
   private static final int ITEM_SEND_MAP = 3;
   private static final int ITEM_DELETE_MAP = 4;
   private static final int ITEM_CANNOT_MODIFY = 5;
-  private static final int CAMERA = 2;
+
   private static final long OLDEST_OK_LOCATION_MS = 60 * 60 * 1000; // 1 hour
 
   private LocationManager locator;
   private LocationTracker locationTracker;
   private boolean autoSelectRequested;
   private String localPathRequest;
-  public final String APP_TAG = "customMaps";
+
   private MapCatalog mapCatalog;
   private HelpDialogManager helpDialogManager;
-  public String photoFileName = "photo.jpg";
 
   private Runnable refreshCatalog = new Runnable() {
     @Override
@@ -95,14 +109,14 @@ public class SelectMap extends ListActivity {
       PtSizeFixer.fixView(getListView().getRootView());
     }
     // Remove select map prompt in when Holo theme is used
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+    /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
       View v = findViewById(R.id.select_map_prompt);
       if (v != null) {
         v.setVisibility(View.GONE);
       }
       // Update actionbar title to match selected locale
       getActionBar().setTitle(R.string.select_map_name);
-    }
+    }*/
 
     autoSelectRequested = getIntent().getBooleanExtra(AUTO_SELECT, false);
     localPathRequest = getIntent().getStringExtra(LOCAL_FILE);

@@ -9,10 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/OSMBonusPackTuto" />
             <option value="$PROJECT_DIR$/OSMC" />
             <option value="$PROJECT_DIR$/osmbonuspack-5.3/MapsForgeForOsmdroid" />
             <option value="$PROJECT_DIR$/osmbonuspack-5.3/OSMBonusPack" />
-            <option value="$PROJECT_DIR$/osmbonuspack-5.3/OSMBonusPackTuto" />
             <option value="$PROJECT_DIR$/osmbonuspack-5.3/OSMNavigator" />
           </set>
         </option>

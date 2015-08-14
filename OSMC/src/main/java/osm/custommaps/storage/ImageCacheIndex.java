@@ -27,7 +27,7 @@ import java.util.Set;
  * ImageCacheIndex keeps track of local file names for
  */
 public class ImageCacheIndex {
-  private static final String INDEX_NAME = "com.custommapsapp.android.cache";
+  private static final String INDEX_NAME = "osm.custommaps";
   private static ImageCacheIndex instance;  // singleton
 
   public static synchronized ImageCacheIndex instance(Context context) {

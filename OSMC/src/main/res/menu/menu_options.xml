@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".TiePointActivity">
+
+    <item
+        android:id="@+id/tileSourceGoogle"
+        android:title="Google Layers">
+        <menu>
+
+            <group
+                android:id="@+id/googlegroup">
+                <item
+                    android:id="@+id/item1"
+                    android:title="Google Satellite"/>
+                <item
+                    android:id="@+id/item2"
+                    android:title="Google Maps"/>
+                <item
+                    android:id="@+id/item3"
+                    android:title="Google Terrain"/>
+
+            </group>
+        </menu>
+
+    </item>
+    <item
+
+        android:id="@+id/tileSourceBing"
+        android:title="Bing Layers">
+        <menu>
+
+            <group
+                android:id="@+id/binggroup" >
+                <item
+                    android:id="@+id/item4"
+                    android:title="Bing Maps"/>
+                <item
+                    android:id="@+id/item5"
+                    android:title="Bing Earth"/>
+
+                <item
+                    android:id="@+id/item6"
+                    android:title="Bing Hybrid"/>
+            </group>
+        </menu>
+
+    </item>
+    <item
+
+        android:id="@+id/tileSourceMapQuest"
+        android:title="MapQuest/OSM Layers">
+        <menu>
+
+            <group
+                android:id="@+id/osmquest">
+
+                <item
+                    android:id="@+id/item9"
+                    android:title="Mapquest Aerial"/>
+                <item
+                    android:id="@+id/item10"
+                    android:title="Mapquest OSM"/>
+                <item
+                    android:id="@+id/item11"
+                    android:title="Mapnik"/>
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>

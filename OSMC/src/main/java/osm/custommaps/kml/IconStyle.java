@@ -15,22 +15,23 @@
  */
 package osm.custommaps.kml;
 
-import  osm.custommaps.CustomMaps;
-import  osm.custommaps.FileUtil;
-import  osm.custommaps.ImageDiskCache;
-import  osm.custommaps.ImageHelper;
-import  osm.custommaps.MapDisplay.MapImageTooLargeException;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.PointF;
 import android.util.Log;
+
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+
+import osm.custommaps.CustomMaps;
+import osm.custommaps.FileUtil;
+import osm.custommaps.ImageDiskCache;
+import osm.custommaps.ImageHelper;
+import osm.custommaps.MapDisplay;
 
 /**
  * IconStyle stores an icon and its hotspot for placemarks. Icon palettes are
@@ -104,7 +105,7 @@ public class IconStyle extends KmlData {
       try {
         try {
           icon = loadIcon();
-        } catch (MapImageTooLargeException e) {
+        } catch (MapDisplay.MapImageTooLargeException e) {
           e.printStackTrace();
         }
       } finally {
@@ -230,7 +231,7 @@ public class IconStyle extends KmlData {
     }
   }
 
-  private Bitmap loadIcon() throws MapImageTooLargeException {
+  private Bitmap loadIcon() throws MapDisplay.MapImageTooLargeException {
     if (iconPath == null) {
       return null;
     }

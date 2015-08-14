@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App -->
+
+    <!-- button items -->
+
+    <string name="subject_field_hint">Subject</string>
+    <string name="comments_field_hint">Comments</string>
+    <string name="flag_box_title">Flag Message</string>
+    <string name="attachment_button_title">Attach File</string>
+    
+    <string name="reply_prefix">Re:</string>
+    <string name="forward_prefix">Fwd:</string>
+    <string name="original_message">\nOriginal Message: \n%s\n</string>
+    
+    <string name="comment_limit_near">Approaching Limit of 1200 Characters.</string>
+    <string name="comment_limit_reached">Limit of 1200 Characters. Reached.</string>
+    
+    <string name="message_saved">Message Saved</string>
+    <string name="message_sent">Message Sent</string>
+    <string name="missing_recipients">Must Add Recipient to Send</string>
+    <string name="missing_subject_comments">Must Fill in Subject or Comments to Send</string>
+    <string name="unexpected_error">An Unexpected Error Occurred</string>
+    
+    <string name="map_plugin_long_description">Free Text</string>
+    <string name="map_plugin_short_description">Free Text</string>
+    <string name="tool_send_freetext_description">Send Free Text</string>
+    
+    <string name="notification_ticker_text">New Free Text Received</string>
+    
+    <string name="launch_intent_name">Launch Intent</string>
     <string name="app_name">OSM-CustomMaps</string>
     <string name="select_map_name">Select map</string>
     <string name="create_map_name">Create map</string>
@@ -190,12 +219,7 @@
         <b>Sources</b>
         \n\u2022 OSMDROID The open street map alternative to Google Maps.
         \n\u2022 Original Custom Maps App by Marko Teittinen
-        \n\u2022
-        \n\u2022
-        \n\u2022
-        \n\u2022
-        \n\u2022
-        \n\u2022
+
     </string>
 
     <!-- button items -->
@@ -315,4 +339,10 @@
 
     <!-- style_option_menu-->
     <string name="style_option_menu_new">New Style</string>
-    </resources>
+    <string name="bing_maps"><url>http://basemap.nationalmap.gov/ArcGIS/rest/services/USGSImageryOnly/MapServer/tile/{$z}/{$y}/{$x}</url></string>
+
+    <string-array name="titles">
+        <item>From Camera</item>
+        <item>From Saved Image</item>
+    </string-array>
+</resources>

@@ -41,7 +41,7 @@ public class AboutDisplay extends Activity {
   private static final String GOOGLE_CODE_URL = "http://code.google.com/p/custom-maps";
   private static final String HOMEPAGE_URL = "http://www.custommapsapp.com/";
 
-  private static final String EXTRA_PREFIX = "com.custommapsapp.android";
+  private static final String EXTRA_PREFIX = "osm.custommaps";
   public static final String CANCELLABLE = EXTRA_PREFIX + ".Cancellable";
   public static final String LICENSE_ACCEPTED = EXTRA_PREFIX + ".LicenseAccepted";
 

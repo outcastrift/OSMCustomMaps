@@ -19,15 +19,6 @@
             android:minHeight="4dp"
             android:progress="0" />
 
-        <TextView
-            style="@style/LargeText"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFEEEEEE"
-            android:padding="4dp"
-            android:text="@string/select_image_select_file"
-            android:textColor="#FF000000" />
-
         <ListView
             android:id="@+id/filelist"
             android:layout_width="fill_parent"

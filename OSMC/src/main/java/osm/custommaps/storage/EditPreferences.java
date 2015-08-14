@@ -52,7 +52,7 @@ import java.util.Locale;
  * @author Marko Teittinen
  */
 public class EditPreferences extends PreferenceActivity {
-  private static final String PREFIX = "com.custommapsapp.android";
+  private static final String PREFIX = "osm.custommaps";
   public static final String LANGUAGE_CHANGED = PREFIX + ".LanguageChanged";
 
   @Override
@@ -72,10 +72,10 @@ public class EditPreferences extends PreferenceActivity {
     getPreferenceScreen().findPreference(PreferenceStore.PREFS_SHOW_HEADING)
         .setDependency(PreferenceStore.PREFS_SHOW_DISTANCE);
 
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+    /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
       // Update actionbar title to match selected locale
       getActionBar().setTitle(R.string.edit_prefs_name);
-    }
+    }*/
   }
 
   private PreferenceScreen createPreferenceScreen() {
